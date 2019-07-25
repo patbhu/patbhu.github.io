@@ -1,0 +1,30 @@
+{
+  "name": "patbhu.github.io",
+  "version": "1.0.0",
+  "description": "Patrick Hu's Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patbhu/patbhu.github.io.git"
+  },
+  "author": "ChumothyLee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patbhu/patbhu.github.io/issues"
+  },
+  "homepage": "https://github.com/patbhu/patbhu.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1",
+    "tether": "^1.4.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

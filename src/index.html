@@ -2,10 +2,12 @@
 <html class="no-js" lang="en">
 
 <head>
-    <title>AWESOME-GAME ///</title>
+    <title>Patrick Hu</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/album.css">
@@ -16,191 +18,164 @@
     <script src="/js/tether.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
 
-    <header>
-        <div class="collapse bg-dark" id="navbarHeader">
-            <div class="container">
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container-fluid d-flex justify-content-between top-nav">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <h2><strong>Patrick Hu</strong></h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse show bg-dark" id="navbarHeader">
+            <div class="container-fluid front-summary">
                 <div class="row">
-                    <div class="col-sm-8 col-md-7 py-4">
+                    <div class="col-sm-8 offset-md-1 col-md-6 py-4">
                         <h4 class="text-white">About</h4>
                         <p class="text-muted">Add some information about the album below, the author, or any other
                             background context. Make it a few sentences long so folks can pick up some informative
                             tidbits. Then, link them off to some social networking sites or contact information.</p>
-                    </div>
-                    <div class="col-sm-4 offset-md-1 py-4">
+                        <br>
                         <h4 class="text-white">Contact</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                            <li><a href="#" class="text-white">Like on Facebook</a></li>
-                            <li><a href="#" class="text-white">Email me</a></li>
-                        </ul>
+                        <p class="text-muted">Add some information about the album below, the author, or any other
+                            background context. Make it a few sentences long so folks can pick up some informative
+                            tidbits. Then, link them off to some social networking sites or contact information.</p>
+                        <br>
+                        <h5><a class="download-link" href="./assets/resume.pdf" download="patrick_hu_resume">Here's a resume!</a></h5>
                     </div>
+                    <div class="col-sm-4 py-4">
+                        <div class="profile-container">
+                            <img src="./assets/patrick.jpg" class="img-thumbnail profile">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--TODO: SOCIAL MEDIA + CONTACT + RESUME-->
                 </div>
             </div>
         </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-            <div class="container d-flex justify-content-between">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
-                        viewBox="0 0 24 24" focusable="false">
-                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-                        <circle cx="12" cy="13" r="4" /></svg>
-                    <strong>Album</strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
-                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-    </header>
+    </div>
 
     <main role="main">
-
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">Album example</h1>
-                <p class="lead text-muted">Something short and leading about the collection below—its contents, the
-                    creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                    entirely.</p>
-                <p>
-                    <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                </p>
-            </div>
-        </section>
-
-        <div class="album py-5 bg-light">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="card-img-top">
-                                
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 bg-light project-bar">
+                        <ul class="nav flex-column">
+                                <li class="nav-item">
+        
+                                    <div class="card m-4 shadow-sm">
+                                        <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="
+                                            card-img-top">
+        
+                                        </div>
+                                        <div class="card-body">
+                                            <small class="text-muted">Oct 2017 - Jun 2018</small>
+                                            <h5 class="card-title">Butt It Out</h5>
+                                            <span class="badge badge-success">Environmental Experience</span>
+                                            <span class="badge badge-info">Work Experience</span>
+                                            <br>
+                                            <small class="text-muted">Stormwater Management Project Intern</small>
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-end align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-md btn-outline-secondary"
+                                                        data-toggle="modal" data-target="#buttItOutModal">View</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="card-img-top">
-                            
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </li>
+                                <li class="nav-item">
+        
+                                    <div class="card m-4 shadow-sm">
+                                        <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="
+                                            card-img-top">
+        
+                                        </div>
+                                        <div class="card-body">
+                                            <small class="text-muted">July 2018 - March 2018</small>
+                                            <h5 class="card-title">BIMAP</h5>
+                                            <span class="badge badge-success">Environmental Experience</span>
+                                            <br>
+                                            <small class="text-muted">Student</small>
+                                            <p class="card-text">
+                                                Biofilter Installation to Mitigate Anthropogenic Pollution
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-end align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-md btn-outline-secondary"
+                                                        data-toggle="modal" data-target="#buttItOutModal">View</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="card-img-top">
-                            
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </li>
+                                <li class="nav-item">
+        
+                                    <div class="card m-4 shadow-sm">
+                                        <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="
+                                            card-img-top">
+        
+                                        </div>
+                                        <div class="card-body">
+                                            <small class="text-muted">Sep 2017 - Jun 2018</small>
+                                            <h5 class="card-title">EU Should Recycle</h5>
+                                            <span class="badge badge-success">Environmental Experience</span>
+                                            <span class="badge badge-info">Work Experience</span>
+                                            <br>
+                                            <small class="text-muted">Residential Advisor</small>
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-end align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-md btn-outline-secondary"
+                                                        data-toggle="modal" data-target="#buttItOutModal">View</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="card-img-top">
-                            
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="card m-4 shadow-sm">
+                                        <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="
+                                            card-img-top">
+        
+                                        </div>
+                                        <div class="card-body">
+                                            <small class="text-muted">Apr 2018 - Jun 2018</small>
+                                            <h5 class="card-title">EU Programing Committee</h5>
+                                            <span class="badge badge-info">Work Experience</span>
+                                            <br>
+                                            <small class="text-muted">Residential Advisor</small>
+                                            <p class="card-text">
+                                                This is a wider card with supporting text below as a natural
+                                                lead-in to additional content. This content is a little bit longer.
+                                            </p>
+                                            <div class="d-flex justify-content-end align-items-center">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-md btn-outline-secondary"
+                                                        data-toggle="modal" data-target="#buttItOutModal">View</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="card-img-top">
-                            
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <div style="width:100%; height:225px; background:#55595c; color:#eceeef;"" class="card-img-top">
-                            
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                </li>
+                            </ul>
+                </div>
+                <div class="col-xs-12 col-md-8 project-detail">
+                    WORLD
                 </div>
             </div>
         </div>
-
     </main>
-
-    <footer class="text-muted">
-        <div class="container">
-            <p class="float-right">
-                <a href="#">Back to top</a>
-            </p>
-            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-            <p>New to Bootstrap? <a href="{{ site.url }}/">Visit the homepage</a> or read our <a
-                    href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/">getting started
-                    guide</a>.</p>
-        </div>
-    </footer>
-
 </body>
 
 </html>

@@ -1,0 +1,91 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100%;
+}
+
+.profile-container {
+    width: 300px;
+}
+  
+.profile-container > .profile {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.front-summary {
+    height: 100%;
+}
+
+div.navbar > .top-nav {
+    max-height: 56px;
+    min-height: 56px;
+    height: 56px;
+}
+
+.front-summary {
+    height: calc(100vh);
+    z-index: 99;
+}
+
+.download-link {
+    text-decoration: underline;
+    color: white;
+}
+
+main[role=main] {
+    height: calc(100% - 56px);
+}
+
+main[role=main] > .container-fluid,
+main[role=main] > .container-fluid > .row,
+main[role=main] > .container-fluid > .row > .project-bar,
+main[role=main] > .container-fluid > .row > .project-detail {
+    height: 100%;
+}
+
+.project-bar {
+    max-height: 100%;
+    overflow: auto;
+}
+
+button.navbar-toggler:focus {
+    outline: none !important;
+}
+
+button.collapse-summary {
+    color: white;
+    background: none !important;
+    border: none !important;
+
+    transition: transform 250ms;
+    -webkit-transition: transform 250ms;
+    -moz-transition: transform 250ms;
+    -ms-transition: transform 250ms;
+}
+
+button.collapse-summary:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+
+button.collapse-summary:focus {
+    outline: none !important;
+}
+
+button.collapse-summary > .material-icons {
+    vertical-align: middle;
+}
+
+.contact-icon {
+    color: white;
+    font-size: 24px;
+}

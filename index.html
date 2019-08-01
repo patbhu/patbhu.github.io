@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="src/css/album.css">
 </head>
 
-<body>
+<body onload="showButtItOutContent()">
     <script src="src/js/jquery.min.js"></script>
     <script src="src/js/tether.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/content-changer.js"></script>
 
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container-fluid d-flex justify-content-between top-nav">
@@ -55,10 +56,10 @@
                                 resume!</a></h5>
                     </div>
                     <div class="d-none d-sm-block offset-md-1 col-sm-4 my-4">
-                            <div class="profile-container">
-                                <img src="src/assets/patrick.jpg" class="img-thumbnail profile">
-                            </div>
+                        <div class="profile-container">
+                            <img src="src/assets/patrick.jpg" class="img-thumbnail profile">
                         </div>
+                    </div>
                 </div>
                 <div class="row d-flex justify-content-center">
                     <button class="collapse-summary" data-toggle="collapse" data-target="#navbarHeader"
@@ -76,7 +77,7 @@
     <main role="main">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-md-4 bg-light project-bar">
+                <div class="d-none d-md-block col-md-4 bg-light project-bar" id="project-bar">
                     <ul class="nav flex-column">
                         <li class="nav-item">
 
@@ -99,7 +100,7 @@
                                     <div class="d-flex justify-content-end align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-md btn-outline-secondary"
-                                                data-toggle="modal" data-target="#buttItOutModal">View</button>
+                                                onclick="showButtItOutContent()">View</button>
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +127,7 @@
                                     <div class="d-flex justify-content-end align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-md btn-outline-secondary"
-                                                data-toggle="modal" data-target="#buttItOutModal">View</button>
+                                                onclick="showBimapContent()">View</button>
                                         </div>
                                     </div>
                                 </div>
@@ -153,7 +154,7 @@
                                     <div class="d-flex justify-content-end align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-md btn-outline-secondary"
-                                                data-toggle="modal" data-target="#buttItOutModal">View</button>
+                                                onclick="showEuRecycleContent()">View</button>
                                         </div>
                                     </div>
                                 </div>
@@ -178,7 +179,7 @@
                                     <div class="d-flex justify-content-end align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-md btn-outline-secondary"
-                                                data-toggle="modal" data-target="#buttItOutModal">View</button>
+                                                onclick="showEuProgrammingContent()">View</button>
                                         </div>
                                     </div>
                                 </div>
@@ -186,12 +187,32 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-md-8 project-detail">
-                    WORLD
+                <div class="col-xs-12 col-md-8 project-detail d-flex align-items-stretch px-0" id="project-detail">
+                    <button onclick="showProjectBar()" class="show-sidebar-button d-md-none btn-light">
+                        <i class="material-icons">
+                            keyboard_arrow_right
+                        </i>
+                    </button>
+                    <div id="project-content-container" class="container-fluid">
+                        <!--REPLACE CONTENT HERE-->
+                    </div>
                 </div>
             </div>
         </div>
+
     </main>
+    <div id="butt-it-out-content" class="d-none">
+        project 1
+    </div>
+    <div id="bimap-content" class="d-none">
+        project 2
+    </div>
+    <div id="eu-recycle-content" class="d-none">
+        project 3
+    </div>
+    <div id="eu-programming-content" class="d-none">
+        project 4
+    </div>
 </body>
 
 </html>

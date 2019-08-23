@@ -35,6 +35,10 @@ function showBimapContent() {
     showContent('bimap-content');
 }
 
+function showTrainingReorganizationContent() {
+    showContent('training-reorganization-content');
+}
+
 function showEuRecycleContent() {
     showContent('eu-recycle-content');
 }

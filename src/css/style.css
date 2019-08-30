@@ -134,3 +134,7 @@ button.collapse-summary > .material-icons {
     left: 0;
     width: 100%;
 }
+
+.card-title {
+    cursor: pointer;
+}
